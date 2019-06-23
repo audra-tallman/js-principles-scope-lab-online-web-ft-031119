@@ -1,6 +1,6 @@
 var customerName = 'bob'
 
-const leastFavoriteCustomer = 'value'
+const leastFavoriteCustomer = 'x'
 
 var bestCustomer;
 
@@ -14,4 +14,8 @@ function setBestCustomer () {
 
 function overwriteBestCustomer () {
   bestCustomer = 'maybe bob'
+}
+
+function changeLeastFavoriteCustomer () {
+  leastFavoriteCustomer =  'billy'
 }
